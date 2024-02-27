@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . mysqli_connect_error());
     echo "Connection error";
   }
-  echo "Connected successfully";
+  echo "Welcome, this is admin";
 
 /*if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST["username"];
